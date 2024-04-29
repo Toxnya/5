@@ -1,0 +1,37 @@
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    transform: translateX(-250px);
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+.sidebar-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.sidebar.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.sidebar.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
