@@ -1,0 +1,46 @@
+.search-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="checkbox"],
+.form-container button {
+    margin-right: 10px;
+}
+
+.results-container {
+    margin-top: 20px;
+}
+
+.movie-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.movie-card h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.movie-card p {
+    margin-top: 0;
+}
+
+.loading-message {
+    font-style: italic;
+    color: #666;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+}
